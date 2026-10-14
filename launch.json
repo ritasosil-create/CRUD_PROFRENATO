@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Web (Web Server)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "web-server",
+      "toolArgs": [
+        "--web-hostname=0.0.0.0",
+        "--web-port=8081"
+      ],
+      "suppressWebServerDeviceBrowserLaunch": true
+    }
+  ]
+}
